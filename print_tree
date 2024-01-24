@@ -1,0 +1,4 @@
+  def print_tree(self):
+        print("\nGit Repository:")
+        for branch, commits in self.branches.items():
+            print(f"  {branch}: {', '.join(commits)}")
